@@ -10,7 +10,7 @@ test('Перевірка форми входу', async ({ page }) => {
 
 test('Перевірка заголовка сторінки', async ({ page }) => {
   await page.goto('http://localhost:3000');
-  await expect(page).toHaveTitle(/Локальна сторінка/);
+  await expect(page).toHaveTitle(/НЕПРАВИЛЬНИЙ ТЕКСТ/);
 });
 
 test('Валідація обов\'язкових полів форми', async ({ page }) => {
